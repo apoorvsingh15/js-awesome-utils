@@ -1,0 +1,35 @@
+{
+  "name": "js-awesome-utils",
+  "version": "1.0.0",
+  "description": "A javascript util bundle for all your daily needs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorvsingh15/js-awesome-utils.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "javascript",
+    "utils",
+    "utility",
+    "functions"
+  ],
+  "author": "Apoorv Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apoorvsingh15/js-awesome-utils/issues"
+  },
+  "homepage": "https://github.com/apoorvsingh15/js-awesome-utils#readme",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
