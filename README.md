@@ -83,7 +83,7 @@ console.log(uniqueArray); // Output: [1, 2, 3, 4]
 - Return Value: A string containing random characters with a length equal to the specified length parameter.
 
 ```js
-import { generateRandomString } from "your-package-name";
+import { generateRandomString } from "js-awesome-utils";
 
 const randomString = generateRandomString(12);
 console.log(randomString);
