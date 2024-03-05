@@ -77,6 +77,18 @@ const uniqueArray = removeDuplicates(arrayWithDuplicates);
 console.log(uniqueArray); // Output: [1, 2, 3, 4]
 ```
 
+## 6. generateRandomString
+
+- Parameterslength (number): The desired length of the random string to be generated.
+- Return Value: A string containing random characters with a length equal to the specified length parameter.
+
+```js
+import { generateRandomString } from "your-package-name";
+
+const randomString = generateRandomString(12);
+console.log(randomString);
+```
+
 # Type Definitions
 
 ## Primitive
