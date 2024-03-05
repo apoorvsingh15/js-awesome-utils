@@ -17,10 +17,14 @@
   "keywords": [
     "javascript",
     "typescript",
-    "javascript",
     "utils",
     "utility",
-    "functions"
+    "functions",
+    "email validation",
+    "number validation",
+    "remove duplicates",
+    "valid url",
+    "strong password"
   ],
   "author": "Apoorv Singh",
   "license": "MIT",
