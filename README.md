@@ -1,10 +1,13 @@
 # Js Awesome Utils Documentation
 
+A light-weight util store for all your javascript needs.
+
 ## Introduction
 
 The Validation Utils package provides a set of functions to perform common data validation tasks. It includes functions for validating email addresses, passwords, URLs, and phone numbers. Additionally, it offers a utility function for removing duplicates from an array.
 
-Installation
+## Installation
+
 To install the Validation Utils package, use the following npm command:
 
 ```js
