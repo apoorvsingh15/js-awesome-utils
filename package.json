@@ -1,6 +1,6 @@
 {
   "name": "js-awesome-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A javascript util bundle for all your daily needs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
