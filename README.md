@@ -28,6 +28,7 @@ console.log(isEmailValid); // Output: true
 ## 2. isStrongPassword
 
 - Verify if a password is strong by checking for minimum length and the inclusion of uppercase, lowercase, digit, and special characters.
+- Password should be at least 8 characters long and contain at least one uppercase, one lowercase, one digit, and one special character
 
 ```js
 import { isStrongPassword } from "validation-utils";
@@ -73,7 +74,7 @@ const uniqueArray = removeDuplicates(arrayWithDuplicates);
 console.log(uniqueArray); // Output: [1, 2, 3, 4]
 ```
 
-## Type Definitions
+# Type Definitions
 
 ## Primitive
 
