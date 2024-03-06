@@ -101,6 +101,12 @@ The Primitive type represents basic data types like string, number, boolean, nul
 
 The removeDuplicates function accepts an array of type T and returns an array with duplicate elements removed.
 
+# Tests
+
+```js
+npm run test
+```
+
 ## Contributing
 
 If you encounter issues or have suggestions for improvements, please open an issue on GitHub.
