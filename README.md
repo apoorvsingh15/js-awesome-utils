@@ -1,4 +1,4 @@
-![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/b55bfbef-0dae-49fb-bdf9-e6fcb6c2dec5)(https://www.npmjs.com/package/js-awesome-utils)
+[![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/b55bfbef-0dae-49fb-bdf9-e6fcb6c2dec5)](https://www.npmjs.com/package/js-awesome-utils)
 
 # Js Awesome Utils Documentation
 
