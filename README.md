@@ -1,6 +1,8 @@
+![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/b55bfbef-0dae-49fb-bdf9-e6fcb6c2dec5)
+
 # Js Awesome Utils Documentation
 
-A light-weight util store for all your javascript needs.
+A lightweight util store for all your javascript needs.
 
 ## Introduction
 
