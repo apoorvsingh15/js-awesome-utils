@@ -29,9 +29,6 @@ function isValidPhoneNumber(phoneNumber: string): boolean {
 
   return phoneRegex.test(phoneNumber);
 }
-
-type Primitive = string | number | boolean | null | undefined;
-
 function removeDuplicates<T>(arr: T[]): T[] {
   const uniqueSet = new Set<string | number | symbol>();
   const result: T[] = [];
