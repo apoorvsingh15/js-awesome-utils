@@ -23,7 +23,7 @@ Usage
 - Use this function to check if an email address is valid.
 
 ```js
-import { isValidEmail } from "validation-utils";
+import { isValidEmail } from "js-awesome-utils";
 
 const email = "example@example.com";
 const isEmailValid = isValidEmail(email);
@@ -36,7 +36,7 @@ console.log(isEmailValid); // Output: true
 - Password should be at least 8 characters long and contain at least one uppercase, one lowercase, one digit, and one special character
 
 ```js
-import { isStrongPassword } from "validation-utils";
+import { isStrongPassword } from "js-awesome-utils";
 
 const password = "StrongP@ssw0rd";
 const isPasswordStrong = isStrongPassword(password);
@@ -48,7 +48,7 @@ console.log(isPasswordStrong); // Output: true
 - Check if a given URL is valid using a basic regular expression.
 
 ```js
-import { isValidUrl } from "validation-utils";
+import { isValidUrl } from "js-awesome-utils";
 
 const url = "https://www.example.com";
 const isUrlValid = isValidUrl(url);
@@ -60,7 +60,7 @@ console.log(isUrlValid); // Output: true
 - Validate a phone number using a basic regular expression.
 
 ```js
-import { isValidPhoneNumber } from "validation-utils";
+import { isValidPhoneNumber } from "js-awesome-utils";
 
 const phoneNumber = "1234567890";
 const isPhoneNumberValid = isValidPhoneNumber(phoneNumber);
@@ -72,7 +72,7 @@ console.log(isPhoneNumberValid); // Output: true
 - Remove duplicates from an array while preserving the order of the unique elements.
 
 ```js
-import { removeDuplicates } from "validation-utils";
+import { removeDuplicates } from "js-awesome-utils";
 
 const arrayWithDuplicates = [1, 2, 3, 1, 2, 4];
 const uniqueArray = removeDuplicates(arrayWithDuplicates);
