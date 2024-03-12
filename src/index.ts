@@ -64,6 +64,10 @@ function generateRandomString(length: number): string {
   return result;
 }
 
+function formatNumber(num: number): string {
+  return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 
 export {
   isValidEmail,
@@ -71,5 +75,6 @@ export {
   isValidUrl,
   isValidPhoneNumber,
   removeDuplicates,
-  generateRandomString
+  generateRandomString,
+  formatNumber
 }
