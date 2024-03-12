@@ -91,6 +91,21 @@ const randomString = generateRandomString(12);
 console.log(randomString);
 ```
 
+## 7. formatNumber(num: number): string
+
+- Formats the provided number by inserting commas as thousand separators.
+
+num (number): The number to be formatted.
+Returns: A string representing the formatted number with commas as thousand separators.
+
+```js
+import { formatNumber } from "js-awesome-utils";
+
+formatNumber(1000); // Output: "1,000"
+formatNumber(10000); // Output: "10,000"
+formatNumber(100000); // Output: "100,000"
+```
+
 # Type Definitions
 
 ## Primitive
