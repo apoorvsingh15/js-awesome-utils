@@ -116,6 +116,47 @@ The Primitive type represents basic data types like string, number, boolean, nul
 
 The removeDuplicates function accepts an array of type T and returns an array with duplicate elements removed.
 
+## 8. objectsAreEqual
+
+```js
+/**
+ * Checks if two objects are equal by comparing their properties and values.
+ *
+ * @param obj1 The first object to compare.
+ * @param obj2 The second object to compare.
+ * @returns Returns `true` if the objects are equal, `false` otherwise.
+ */
+function objectsAreEqual(obj1: AnyObject, obj2: AnyObject): boolean {
+  // Implementation details...
+}
+```
+
+## Parameters:
+
+obj1: The first object to compare.
+obj2: The second object to compare.
+Returns:
+Returns true if the objects are equal (i.e., they have the same properties with the same values), false otherwise.
+Example Usage:
+
+```js
+const obj1 = { a: 1, b: 2, c: 3 };
+const obj2 = { a: 1, b: 2, c: 3 };
+const obj3 = { a: 1, b: 2, c: 4 };
+
+console.log(objectsAreEqual(obj1, obj2)); // true
+console.log(objectsAreEqual(obj1, obj3)); // false
+```
+
+## Notes:
+
+This function performs a deep comparison of objects, checking each property and its value recursively.
+The function returns true if both objects are null or undefined.
+If the objects have different numbers of properties, they are considered unequal.
+Properties with undefined values are considered equal to non-existent properties.
+This function provides type safety for TypeScript projects.
+It's particularly useful for comparing configurations, state objects, or any other plain JavaScript objects.
+
 # Tests
 
 ```js

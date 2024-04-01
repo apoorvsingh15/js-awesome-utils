@@ -68,6 +68,42 @@ function formatNumber(num: number): string {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+// Function to check if two objects are equal
+// Interface for generic objects
+interface AnyObject {
+  [key: string]: any;
+}
+
+// Function to check if two objects are equal
+function objectsAreEqual(obj1: AnyObject, obj2: AnyObject): boolean {
+  // Check if both objects are null or undefined
+  if (obj1 === null && obj2 === null) {
+    return true;
+  }
+
+  // Check if one object is null or undefined
+  if (obj1 === null || obj2 === null || obj1 === undefined || obj2 === undefined) {
+    return false;
+  }
+
+  // Check if both objects have the same number of properties
+  if (Object.keys(obj1).length !== Object.keys(obj2).length) {
+    return false;
+  }
+
+  // Check if all properties of obj1 are present in obj2 and have the same values
+  for (let key in obj1) {
+    if (obj1.hasOwnProperty(key)) {
+      if (!obj2.hasOwnProperty(key) || obj1[key] !== obj2[key]) {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+
 
 export {
   isValidEmail,
@@ -76,5 +112,6 @@ export {
   isValidPhoneNumber,
   removeDuplicates,
   generateRandomString,
-  formatNumber
+  formatNumber,
+  objectsAreEqual
 }
