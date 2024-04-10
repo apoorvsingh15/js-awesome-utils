@@ -103,6 +103,11 @@ function objectsAreEqual(obj1: AnyObject, obj2: AnyObject): boolean {
   return true;
 }
 
+function removeSpaces(input: string): string {
+  // Use regular expression to replace all spaces with an empty string
+  return input.replace(/\s/g, '');
+}
+
 
 
 export {
@@ -113,5 +118,6 @@ export {
   removeDuplicates,
   generateRandomString,
   formatNumber,
-  objectsAreEqual
+  objectsAreEqual,
+  removeSpaces
 }

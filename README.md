@@ -157,6 +157,38 @@ Properties with undefined values are considered equal to non-existent properties
 This function provides type safety for TypeScript projects.
 It's particularly useful for comparing configurations, state objects, or any other plain JavaScript objects.
 
+## 9. Remove Spaces
+
+```js
+/**
+ * Removes all spaces from a given string.
+ * @param input The input string from which spaces are to be removed.
+ * @returns A new string with all spaces removed.
+ */
+function removeSpaces(input: string): string {
+  // Use regular expression to replace all spaces with an empty string
+  return input.replace(/\s/g, "");
+}
+```
+
+## Function Description:
+
+- Function Name: removeSpaces
+  Description: This function removes all spaces from a given string.
+- Parameters:
+  input (string): The input string from which spaces are to be removed.
+- Returns: A new string with all spaces removed.
+
+```js
+const stringWithSpaces = "This is a string with spaces";
+const stringWithoutSpaces = removeSpaces(stringWithSpaces);
+console.log(stringWithoutSpaces); // Output: "Thisisastringwithspaces"
+```
+
+## Note:
+
+This function utilizes the replace() method with a regular expression / /g to match all occurrences of spaces (\s) globally (g) and replaces them with an empty string, effectively removing all spaces from the input string.
+
 # Tests
 
 ```js
