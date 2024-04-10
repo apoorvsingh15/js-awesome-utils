@@ -1,4 +1,4 @@
-[![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/348f2405-7f6f-42ff-8485-4041e1e5d644)
+![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/348f2405-7f6f-42ff-8485-4041e1e5d644)
 # Js Awesome Utils Documentation
 
 A lightweight util store for all your javascript needs.
