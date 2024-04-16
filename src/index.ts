@@ -108,6 +108,13 @@ function removeSpaces(input: string): string {
   return input.replace(/\s/g, '');
 }
 
+function isPalindrome(str: string): boolean {
+  // Remove non-alphanumeric characters and convert to lowercase
+  const cleanStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+  // Check if the cleaned string equals its reverse
+  return cleanStr === cleanStr.split('').reverse().join('');
+}
+
 
 
 export {
@@ -119,5 +126,6 @@ export {
   generateRandomString,
   formatNumber,
   objectsAreEqual,
-  removeSpaces
+  removeSpaces,
+  isPalindrome
 }

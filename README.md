@@ -1,4 +1,5 @@
 ![npm](https://github.com/apoorvsingh15/js-awesome-utils/assets/26206845/348f2405-7f6f-42ff-8485-4041e1e5d644)
+
 # Js Awesome Utils Documentation
 
 A lightweight util store for all your javascript needs.
@@ -187,6 +188,42 @@ console.log(stringWithoutSpaces); // Output: "Thisisastringwithspaces"
 ## Note:
 
 This function utilizes the replace() method with a regular expression / /g to match all occurrences of spaces (\s) globally (g) and replaces them with an empty string, effectively removing all spaces from the input string.
+
+## 10. isPalindrome
+
+## Function Description:
+
+Determines whether a given string is a palindrome. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
+
+```js
+function isPalindrome(str: string): boolean
+```
+
+## Parameters:
+
+str: The input string to be checked for palindrome property.
+Returns:
+boolean: true if the input string is a palindrome, false otherwise.
+
+## Example:
+
+```js
+const str1 = "A man, a plan, a canal, Panama!";
+console.log(isPalindrome(str1)); // Output: true
+
+const str2 = "Hello, world!";
+console.log(isPalindrome(str2)); // Output: false
+```
+
+## Explanation:
+
+- In the first example, the input string "A man, a plan, a canal, Panama!" is a palindrome, as it reads the same forward and backward after removing non-alphanumeric characters and ignoring case.
+- In the second example, the input string "Hello, world!" is not a palindrome.
+
+## Notes:
+
+This function ignores spaces, punctuation, and capitalization when determining if a string is a palindrome.
+Empty strings are considered palindromes.
 
 # Tests
 
